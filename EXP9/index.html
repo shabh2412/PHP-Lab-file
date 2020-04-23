@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Validation</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <style>
+            input{
+                width: 300px;
+            }
+        </style>
+    </head>
+    <body class="container-fluid">
+        <form action="action.php" method="post" class="container-fluid py-2 px-5 my-5 mx-5">
+            <div class="row text-center py-2">
+                <div class="col">
+                    <h2 class="text-muted">FORM</h2>
+                </div>
+            </div>
+            <div class="row text-center py-2">
+                <div class="col">
+                    <label for="URL">Website Link / URL</label>
+                </div>
+                <div class="col">
+                    <input type="text" name="URL" id="URL" required>
+                </div>
+            </div>
+            <div class="row text-center py-2">
+                <div class="col">
+                    <label for="email">E-mail ID</label>
+                </div>
+                <div class="col">
+                    <input type="email" name="email" id="email" required>
+                </div>
+            </div>
+            <div class="row text-center py-2">
+                <div class="col">
+                    <label for="contact">Contact</label>
+                </div>
+                <div class="col">
+                    <input type="number" name="contact" id="contact" required>
+                </div>
+            </div>
+            <div class="row text-center py-5">
+                <div class="col">
+                    <button type="submit" name = 'sub' id='sub' class="button p-2">SUBMIT</button>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
